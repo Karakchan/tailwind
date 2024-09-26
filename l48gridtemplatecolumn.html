@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid Template Column</title>
+        <style type="text/css">
+            
+            
+
+        </style>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        
+        <h1>This is tailwind css using CDN Link</h1>
+
+        <hr/>
+
+        <h4>grid-cols</h4>
+
+        <div class="grid grid-cols-12 text-white">
+            <div class="w-44 h-20 bg-green-900 text-white">Div 1</div>
+            <div class="w-44 h-20 bg-green-900 text-white">Div 2</div>
+            <div class="w-44 h-20 bg-green-900 text-white">Div 3</div>
+            <div class="w-44 h-20 bg-green-900 text-white">Div 4</div>
+            <div class="w-44 h-20 bg-green-900 text-white">Div 5</div>
+            <div class="w-44 h-20 bg-green-900 text-white">Div 6</div>
+            <div class="w-44 h-20 bg-green-900 text-white">Div 7</div>
+            <div class="w-44 h-20 bg-green-900 text-white">Div 8</div>
+            <div class="w-44 h-20 bg-green-900 text-white">Div 9</div>
+            <div class="w-44 h-20 bg-green-900 text-white">Div 10</div>
+            <div class="w-44 h-20 bg-green-900 text-white">Div 11</div>
+            <div class="w-44 h-20 bg-green-900 text-white">Div 12</div>
+        </div>
+
+        <hr class="my-5"/>
+
+        <h4>col-span</h4>
+
+        <div class="grid grid-cols-3 gap-4 text-white">
+            <div class="h-20 bg-green-900 text-white ">Div 1</div>
+            <div class="h-20 bg-green-900 text-white col-span-1">Div 1</div>
+            <div class="h-20 bg-green-900 text-white ">Div 1</div>
+            <div class="h-20 bg-green-900 text-white col-span-3">Div 1</div>
+            <div class="h-20 bg-green-900 text-white col-span-2">Div 1</div>
+            <div class="h-20 bg-green-900 text-white ">Div 1</div>
+            <div class="h-20 bg-green-900 text-white ">Div 1</div>
+            <div class="h-20 bg-green-900 text-white ">Div 1</div>
+            <div class="h-20 bg-green-900 text-white col-span-2">Div 1</div>
+            <div class="h-20 bg-green-900 text-white ">Div 1</div>
+            <div class="h-20 bg-green-900 text-white col-span-3 ">Div 1</div>
+        </div>
+
+        <hr class="my-5"/>
+
+        <div class="grid grid-cols-4 text-white gap-4">
+            <div class=" h-20 bg-green-900 text-white col-start-2">Div 1</div>
+            <div class=" h-20 bg-green-900 text-white">Div 2</div>
+            <div class=" h-20 bg-green-900 text-white">Div 3</div>
+            <div class=" h-20 bg-green-900 text-white col-start-2">Div 4</div>
+            <div class=" h-20 bg-green-900 text-white">Div 5</div>
+            <div class=" h-20 bg-green-900 text-white">Div 6</div>
+            <div class=" h-20 bg-green-900 text-white">Div 7</div>
+            <div class=" h-20 bg-green-900 text-white col-span-3">Div 8</div>
+            <div class=" h-20 bg-green-900 text-white col-start-1 col-end-5">Div 9</div>
+            <div class=" h-20 bg-green-900 text-white">Div 10</div>
+            <div class=" h-20 bg-green-900 text-white">Div 11</div>
+            <div class=" h-20 bg-green-900 text-white col-start-3 col-end-5">Div 12</div>
+
+        </div>
+
+        <hr class="my-5"/>
+
+        <h4>grid grid-flow-col grid-rows</h4>
+
+        <div class="grid grid-flow-col grid-rows-3  text-white gap-4">
+            <div class="w-44 h-20 bg-green-900 text-white">Div 1</div>
+            <div class="w-44 h-20 bg-green-900 text-white">Div 2</div>
+            <div class="w-44 h-20 bg-green-900 text-white">Div 3</div>
+            <div class="w-44 h-20 bg-green-900 text-white">Div 4</div>
+            <div class="w-44 h-20 bg-green-900 text-white">Div 5</div>
+            <div class="w-44 h-20 bg-green-900 text-white">Div 6</div>
+            <div class="w-44 h-20 bg-green-900 text-white">Div 7</div>
+            <div class="w-44 h-20 bg-green-900 text-white">Div 8</div>
+            <div class="w-44 h-20 bg-green-900 text-white">Div 9</div>
+            <div class="w-44 h-20 bg-green-900 text-white">Div 10</div>
+            <div class="w-44 h-20 bg-green-900 text-white">Div 11</div>
+            <div class="w-44 h-20 bg-green-900 text-white">Div 12</div>
+        </div>
+
+        <hr class="my-5"/>
+
+        <h4>grid grid-flow-col grid-rows row-span-value</h4>
+
+        <div class="grid grid-flow-col grid-rows-3 text-white gap-4">
+            <div class="w-44  bg-green-900 text-white row-span-3">Div 1</div>
+            <div class="w-44  bg-green-900 text-white">Div 2</div>
+            <div class="w-44  bg-green-900 text-white">Div 3</div>
+            <div class="w-44  bg-green-900 text-white">Div 4</div>
+            <div class="w-44  bg-green-900 text-white row-span-3">Div 5</div>
+            <div class="w-44  bg-green-900 text-white">Div 6</div>
+            <div class="w-44  bg-green-900 text-white">Div 7</div>
+            <div class="w-44  bg-green-900 text-white">Div 8</div>
+            <div class="w-44  bg-green-900 text-white row-span-2">Div 9</div>
+            <div class="w-44  bg-green-900 text-white">Div 10</div>
+            <div class="w-44  bg-green-900 text-white">Div 11</div>
+            <div class="w-44  bg-green-900 text-white row-span-2">Div 12</div>
+        </div>
+
+        <hr class="my-5"/>
+
+        <h4>grid grid-flow-col grid-rows row-span-value</h4>
+
+        <div class="grid grid-flow-col grid-rows-3 text-white gap-4">
+            <div class="  bg-green-900 text-white row-span-2 col-span-3 ">Div 1</div>
+            <div class=" bg-green-900 text-white">Div 2</div>
+            <div class="  bg-green-900 text-white">Div 3</div>
+            <div class=" bg-green-900 text-white">Div 4</div>
+            <div class="  bg-green-900 text-white ">Div 5</div>
+            <div class="  bg-green-900 text-white">Div 6</div>
+            <div class="  bg-green-900 text-white">Div 7</div>
+            <div class="  bg-green-900 text-white">Div 8</div>
+            <div class="  bg-green-900 text-white ">Div 9</div>
+            <div class="  bg-green-900 text-white">Div 10</div>
+            <div class="  bg-green-900 text-white">Div 11</div>
+            <div class="  bg-green-900 text-white row-span-2">Div 12</div>
+        </div>
+
+        <hr class="my-5"/>
+
+        <h4>row-start / row-end</h4>
+
+        <div class="grid grid-flow-col grid-rows-3 text-white gap-4">
+            <div class="  bg-green-900 text-white  row-span-2 row-start-2">Div 1</div>
+            <div class=" bg-green-900 text-white col-span-2">Div 2</div>
+            <div class="  bg-green-900 text-white">Div 3</div>
+            <div class=" bg-green-900 text-white">Div 4</div>
+            <div class="  bg-green-900 text-white ">Div 5</div>
+            <div class="  bg-green-900 text-white">Div 6</div>
+            <div class="  bg-green-900 text-white">Div 7</div>
+            <div class="  bg-green-900 text-white">Div 8</div>
+            <div class="  bg-green-900 text-white ">Div 9</div>
+            <div class="  bg-green-900 text-white row-span-2">Div 10</div>
+            <div class="  bg-green-900 text-white row-start-3">Div 11</div>
+            <div class="  bg-green-900 text-white row-start-1 row-end-4">Div 12</div>
+        </div>
+
+        <hr class="my-5"/>
+
+        
+        
+    </body>
+</html>
+
+<!-- 
+space-x-none
+
+space-x-1               grid-template-columns:repeat(,);
+space-x-2
+space-x-3 
+space-x-4 
+space-x-5
+space-x-6 
+space-x-7 
+space-x-8 
+space-x-9 
+space-x-10
+space-x-11
+space-x-12
+
+col-auto                grid-row:auto;
+
+row-span-1                 grid-row:span1/span1;
+row-span-2                 grid-row:span2/span2;
+row-span-3   
+row-span-4  
+row-span-5  
+row-span-6   
+row-span-7   
+row-span-8   
+row-span-9   
+row-span-10   
+row-span-11
+row-span-12 
+
+-->
+
+<!-- 
+
+row-start-auto                grid-column:auto;
+
+row-start-1                 grid-column:span1/span1;
+row-start-2                 grid-column:span2/span2;
+row-start-3   
+row-start-4  
+row-start-5  
+row-start-6   
+row-start-7   
+row-start-8   
+row-start-9   
+row-start-10   
+row-start-11
+ror-start-12 
+
+
+col-end auto
+
+col-end-1                 grid-column:1;
+col-end-2                  grid-column-end:2;
+col-end-3
+col-end-4
+col-end-5
+col-end-6
+col-end-7
+col-end-8
+col-end-9
+col-end-10
+col-end-11
+col-end-12
+col-end-13
+
+ -->
+
+
+ <!-- 
+ 
+grid-rows none           grid-templete-rows:none;
+
+grid-rows-1                 grid-rows:1;
+grid-rows-2                  grid-rows-end:2;
+grid-rows-3 
+grid-rows-4 
+grid-rows-5 
+grid-rows-6  
+grid-rows-7  
+grid-rows-8 
+grid-rows-9 
+grid-rows-10 
+grid-rows-12  
+
+ -->

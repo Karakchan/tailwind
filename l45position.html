@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Accent Color</title>
+        <style type="text/css">
+            
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: silver;
+        }  
+
+        .div1{
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            color: #fff;
+        }  
+
+        .div2{
+            width: 100px;
+            height: 100px;
+            background-color: orange;
+            color: #fff;
+        }  
+      
+      
+        </style>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        
+        <h1>This is tailwind css using CDN Link</h1>
+
+        <hr/>
+
+        <div class="box relative">
+            <div class="div1 absolute z-10">Div 1</div>
+            <div class="div2 absolute z-50">Div 2</div>
+        </div>
+
+        <hr/>
+
+        <div class="box relative">
+            <div class="div1">Div 1</div>
+            <div class="div2 absolute inset-0">Div 2</div>
+        </div>
+
+        <hr/>
+
+        <div class="box relative">
+            <div class="div1">Div 1</div>
+            <div class="div2 absolute inset-x-0">Div 2</div>
+        </div>
+
+        <hr/>
+
+        <div class="box relative">
+            <div class="div1">Div 1</div>
+            <div class="div2 absolute inset-y-0">Div 2</div>
+        </div>
+
+        <hr/>
+
+        <div class="box relative">
+            <div class="div1">Div 1</div>
+            <div class="div2 absolute left-0">Div 2</div>
+        </div>
+
+        <hr/>
+
+        <div class="box relative">
+            <div class="div1">Div 1</div>
+            <div class="div2 absolute right-0">Div 2</div>
+        </div>
+
+        <hr/>
+
+
+
+
+    </body>
+</html>
+
+
+ <!-- 
+
+    accent-black
+    accent-white
+  -->
